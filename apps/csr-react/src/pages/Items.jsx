@@ -1,5 +1,5 @@
 import React from "react";
-import { useEffect, useState } from 'react';
+import {useEffect, useState} from 'react';
 import ItemList from '../components/ItemList.jsx';
 
 export default function Items() {
@@ -16,7 +16,7 @@ export default function Items() {
     return (
         <div>
             <h1>Items (CSR)</h1>
-            <ItemList items={items} />
+            <ItemList items={items}/>
         </div>
     );
 }
